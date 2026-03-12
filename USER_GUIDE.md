@@ -81,7 +81,7 @@ You have two authentication options:
 
 1. Enter the **Login URL** (`https://login.salesforce.com` for production, `https://test.salesforce.com` for sandboxes).
 2. Enter your connected app's **Client ID** and **Client Secret**.
-3. Enter your Salesforce **Username** and **Password + Security Token** (concatenated, no spaces).
+3. Enter your Salesforce **Username** and **Password** (a security token appended to the password is typically not required for Data Cloud orgs).
 4. Click **Connect**.
 
 If authentication succeeds, the sidebar will show "Connected" with your instance URL, and you'll advance to Step 2.

@@ -112,7 +112,7 @@ if st.session_state.step == 1:
         with col2:
             st.text_input("", disabled=True, label_visibility="hidden")
             client_secret = st.text_input("Client Secret", type="password")
-            password = st.text_input("Password + Security Token", type="password")
+            password = st.text_input("Password", type="password")
 
         if st.button("Connect", type="primary"):
             if not all([login_url, client_id, client_secret, username, password]):
