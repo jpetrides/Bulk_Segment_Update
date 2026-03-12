@@ -37,7 +37,7 @@ The authenticated user must have:
 Open a terminal and navigate to the tool's folder:
 
 ```bash
-cd Ford_Bulk_Segment_Update
+cd Bulk_Segment_Update
 ```
 
 Create a virtual environment and install dependencies:

@@ -22,7 +22,7 @@ This is equivalent to manually opening each segment in the Data Cloud UI and add
 ## Setup
 
 ```bash
-cd Ford_Bulk_Segment_Update
+cd Bulk_Segment_Update
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
